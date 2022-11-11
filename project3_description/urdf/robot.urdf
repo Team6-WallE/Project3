@@ -17,14 +17,14 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Base_Chasis.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Base_Chasis.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0.4" rpy="0 0 0" />
             <material name="grey" />
         </visual> 
         <collision>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Base_Chasis.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Base_Chasis.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0.4" rpy="0 0 0" />
         </collision>
@@ -38,14 +38,14 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="red" />
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
@@ -67,14 +67,14 @@
         </inertial>       
         <visual>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="red" />
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
@@ -97,14 +97,14 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="red" />
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
@@ -126,14 +126,14 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="red" />
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/me/project3_ws/Project3/project3_description/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
+                <mesh filename="file:$(find project3_description)/models/Robot_Wheel.dae" scale="0.01 0.01 0.01"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
@@ -271,3 +271,4 @@
         </plugin>
     </gazebo>
  </robot>
+
