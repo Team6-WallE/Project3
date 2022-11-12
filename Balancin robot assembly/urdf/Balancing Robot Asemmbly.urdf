@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Balancing Robot Asemmbly">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="3.42795419322846E-18 0.0015 -8.35341821467981E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0214082294666905" />
+      <inertia
+        ixx="2.75404207836179E-05"
+        ixy="-2.42793373862945E-23"
+        ixz="-6.25178037690428E-20"
+        iyy="3.40430416803621E-05"
+        iyz="4.02216989243671E-23"
+        izz="6.53473324094417E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.909803921568627 0.443137254901961 0.0313725490196078 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel1_link">
+    <inertial>
+      <origin
+        xyz="-5.1266033085362E-11 0.0122580387578494 5.17285485279739E-11"
+        rpy="0 0 0" />
+      <mass
+        value="0.0461014634815679" />
+      <inertia
+        ixx="1.81167936471011E-05"
+        ixy="-3.6219870037393E-14"
+        ixz="1.26368190644401E-13"
+        iyy="3.09840404030666E-05"
+        iyz="-1.49651315384912E-15"
+        izz="1.81169402305183E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/wheel1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/wheel1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel1_base"
+    type="revolute">
+    <origin
+      xyz="0 0.0942 0.0142"
+      rpy="-3.1416 -0.56761 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel1_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="wheel2_link">
+    <inertial>
+      <origin
+        xyz="-5.12661155961623E-11 0.0122580387578494 5.17285537321444E-11"
+        rpy="0 0 0" />
+      <mass
+        value="0.0461014634815678" />
+      <inertia
+        ixx="1.81167936471011E-05"
+        ixy="-3.62199185450314E-14"
+        ixz="1.26368193913746E-13"
+        iyy="3.09840404030666E-05"
+        iyz="-1.49651298413283E-15"
+        izz="1.81169402305183E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/wheel2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Balancing Robot Asemmbly/meshes/wheel2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel2_base"
+    type="revolute">
+    <origin
+      xyz="0 -0.0942 0.0142"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel2_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
