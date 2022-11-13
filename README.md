@@ -1,8 +1,11 @@
 # Project3
 #### Use my_robot_description. Only this works as the other one movement is wrong
-#### To launch in gazebo follow the command: ros2 launch my_robot_description gazebo.launch.py
-#### To launch in rviz follow the command: ros2 launch my_robot_description display.launch.py
-#### To move the robot in gazebo follow the command: ros2 run teleop_twist_keyboard teleop_twist_keyboard
+#### To launch in gazebo follow the command: 
+      ros2 launch my_robot_description gazebo.launch.py
+#### To launch in rviz follow the command: 
+      ros2 launch my_robot_description display.launch.py
+#### To move the robot in gazebo follow the command: 
+      ros2 run teleop_twist_keyboard teleop_twist_keyboard
 #### Note: For the robot to move in gazebo, you need to click on the play button at the bottom of the screen. Then the robot will move.
 
 #### All necessary sensors have been setup
