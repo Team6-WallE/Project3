@@ -5,7 +5,7 @@
       ros2 launch my_robot_description display.launch.py
 #### To move the robot in gazebo follow the command (run in new terminal): 
       ros2 run teleop_twist_keyboard teleop_twist_keyboard
-#### To check if odomtery is runnng smoothly follow the command:
+#### To check if odomtery is running smoothly follow the command:
       ros2 launch my_robot_description level5.launch.py
       ros2 topic list
       ros2 topic info /my_robot/imu
