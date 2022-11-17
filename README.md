@@ -32,6 +32,7 @@
 #### To run both rviz and gazebo follow the command:
       ros2 launch my_robot_description level5.launch.py use_rviz:=True
 
+
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
       1. package.xml: added robot_localization dependencies
@@ -40,4 +41,5 @@
       4. config folder: created a new ekf.yaml file to fuse the odometry information given by the sensors through the use of state estimation nodes.
                         It can also publish the odom => base_link transform on the /tf topic.
       5. level5.launch.py: added a robot_localization node
+      6. added new pkg my_robot_mapping
 
