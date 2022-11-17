@@ -28,9 +28,10 @@
         /rosout: rcl_interfaces/msg/Log
         /tf: tf2_msgs/msg/TFMessage
       Service Servers:
-#### Run the following command and check against the frames.pdf
+#### Run the following command and check against the frames.pdf:
       ros2 run tf2_tools view_frames
-
+#### To run both rviz and gazebo follow the command:
+      ros2 launch my_robot_description level5.launch.py use_rviz:=True
 
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
