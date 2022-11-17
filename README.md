@@ -3,7 +3,7 @@
       ros2 launch my_robot_description gazebo.launch.py
 #### To launch in rviz follow the command: 
       ros2 launch my_robot_description display.launch.py
-#### To move the robot in gazebo follow the command: 
+#### To move the robot in gazebo follow the command (run in new terminal): 
       ros2 run teleop_twist_keyboard teleop_twist_keyboard
 #### To check if odomtery is runnng smoothly follow the command:
       ros2 launch my_robot_description level5.launch.py
