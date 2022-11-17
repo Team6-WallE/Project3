@@ -35,7 +35,7 @@
       sudo apt install ros-foxy-slam-toolbox
 #### Then use the following command to run the node:
       ros2 launch my_robot_mapping online_async_launch.py 
-#### To see the map, click "add" on the bottom left hand corner of rviz. Click on "topics" and select "Map" NOTE: RVIZ HAS TO BE RUNNING IN ORDER TO SEE        THE "Map" TOPIC
+#### To see the map topic for mapping, click "add" on the bottom left hand corner of rviz. Click on "topics" and select "Map" NOTE: THE SLAM TOOLBOX NODE   HAS TO BE RUNNING IN ORDER TO SEE THE "Map" TOPIC
 
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
