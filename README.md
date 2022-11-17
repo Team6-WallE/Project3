@@ -31,6 +31,11 @@
       ros2 run tf2_tools view_frames
 #### To run both rviz and gazebo follow the command:
       ros2 launch my_robot_description level5.launch.py use_rviz:=True
+#### To run mapping node, make sure SLAM Toolbox is installed. If it isn't, run:
+      sudo apt install ros-foxy-slam-toolbox
+#### Then use the following command to run the node:
+      ros2 launch my_robot_mapping online_async_launch.py 
+      
 
 
 ----------------------------------------------Updates-------------------------------------------------------------------
