@@ -1,5 +1,4 @@
 # Project3
-#### Use my_robot_description. Only this works as the other one movement is wrong
 #### To launch in gazebo follow the command: 
       ros2 launch my_robot_description gazebo.launch.py
 #### To launch in rviz follow the command: 
