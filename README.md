@@ -36,6 +36,8 @@
 #### Then use the following command to run the node:
       ros2 launch my_robot_mapping online_async_launch.py 
 #### To see the map topic for mapping, click "add" on the bottom left hand corner of rviz. Click on "topics" and select "Map" NOTE: THE SLAM TOOLBOX NODE   HAS TO BE RUNNING IN ORDER TO SEE THE "Map" TOPIC
+#### To run navigation:
+      ros2 launch my_robot_navigation my_robot_navigation.launch.py
 
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
@@ -45,5 +47,6 @@
       4. config folder: created a new ekf.yaml file to fuse the odometry information given by the sensors through the use of state estimation nodes.
                         It can also publish the odom => base_link transform on the /tf topic.
       5. level5.launch.py: added a robot_localization node
-      6. added new pkg my_robot_mapping, .pgm and yaml of level5 map is inside the pkg /maps folder
+      6. added pkg my_robot_mapping, .pgm and yaml of level5 map is inside the pkg /maps folder
+      7. added navigation pkg. Currently some issues with the trajectory planner, robot never curves on bends. Usage is the same as always. Pose estimate then choose nav goal
 
