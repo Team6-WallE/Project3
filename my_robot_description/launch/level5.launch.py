@@ -23,8 +23,8 @@ def generate_launch_description():
   robot_name_in_model = 'my_robot'
 
   # Pose where we want to spawn the robot
-  spawn_x_val = '-2.0'
-  spawn_y_val = '-1.0'
+  spawn_x_val = '-6.0'
+  spawn_y_val = '7.0'
   spawn_z_val = '0.0'
   spawn_yaw_val = '0.00'
  

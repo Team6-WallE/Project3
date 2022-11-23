@@ -109,7 +109,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/dillon/project3_ws/Project3/my_robot_description/models/Level5_v3.stl</uri>
+              <uri>/home/meena/project3_ws/Project3-main/my_robot_description/models/Level5_v3.stl</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -136,7 +136,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/dillon/project3_ws/Project3/my_robot_description/models/Level5_v3.stl</uri>
+              <uri>/home/meena/project3_ws/Project3-main/my_robot_description/models/Level5_v3.stl</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
