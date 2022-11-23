@@ -40,6 +40,8 @@
 #### NOTE: THE SLAM TOOLBOX NODE HAS TO BE RUNNING IN ORDER TO SEE THE "Map" TOPIC
 #### To run navigation:
       ros2 launch my_robot_navigation my_robot_navigation.launch.py
+#### Robot moving from one point to another, use command:
+      ros2 run my_robot_commander my_robot_commander
 
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
@@ -49,6 +51,6 @@
       4. config folder: created a new ekf.yaml file to fuse the odometry information given by the sensors through the use of state estimation nodes.
                         It can also publish the odom => base_link transform on the /tf topic.
       5. level5.launch.py: added a robot_localization node
-      6. added pkg my_robot_mapping, .pgm and yaml of level5 map is inside the pkg /maps folder
-      7. added navigation pkg. Currently some issues with the trajectory planner, robot never curves on bends. Usage is the same as always. Pose estimate then choose nav goal
-
+      6. my_robot_mapping: created pkg for mapping
+      7. my_robot_navigation: created pkg for navigation of robot
+      8. my_robot_commander: created pkg for autonomuous movement
