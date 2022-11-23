@@ -22,7 +22,7 @@ def generate_launch_description():
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
   nav2_dir = FindPackageShare(package='nav2_bringup').find('nav2_bringup') 
   nav2_launch_dir = os.path.join(nav2_dir, 'launch') 
-  static_map_path = os.path.join(nav_share, 'maps', 'my_map.yaml')
+  static_map_path = os.path.join(nav_share, 'maps', 'map.yaml')
   nav2_params_path = os.path.join(nav_share, 'params', 'nav2_params.yaml')
   nav2_bt_path = FindPackageShare(package='nav2_bt_navigator').find('nav2_bt_navigator')
   behavior_tree_xml_path = os.path.join(nav2_bt_path, 'behavior_trees', 'navigate_w_replanning_and_recovery.xml')
@@ -44,8 +44,8 @@ def generate_launch_description():
   use_simulator = LaunchConfiguration('use_simulator')
   world = LaunchConfiguration('world')
 
-  spawn_x_val = '-2.0'
-  spawn_y_val = '-1.0'
+  spawn_x_val = '-6.0'
+  spawn_y_val = '7.0'
   spawn_z_val = '0.0'
   spawn_yaw_val = '0.00'
 
