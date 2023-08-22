@@ -42,6 +42,7 @@
       ros2 launch my_robot_navigation my_robot_navigation.launch.py
 #### Robot moving from one point to another, use command:
       ros2 run my_robot_commander my_robot_commander
+#### NOTE: Run the nodes from Final Folder as it contains the final design of the kiosk
 
 ----------------------------------------------Updates-------------------------------------------------------------------
 #### Changes made to files
